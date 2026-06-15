@@ -194,10 +194,10 @@ export const menu: MenuCategory[] = [
 
 //make galllery images
 export const galleryImages = [
-  "/src/assets/Chicken Biryani.jpeg",
-  "/src/assets/Chicken Karahi.jpeg",
-  "/src/assets/Chicken Qorma.jpeg",
-  "/src/assets/Chicken Malai Boti.jpeg",
+  ChickenBiryani,
+  ChickenKarahi,
+  ChickenQorma,
+  ChickenMalaiBoti,
 ];
 
 export const RESTAURANT = {

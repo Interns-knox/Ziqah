@@ -1,13 +1,14 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram } from "lucide-react";
 import { RESTAURANT, IMG } from "@/lib/menu-data";
+import logo from "@/assets/Logo.jpeg";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-[oklch(0.13_0_0)] mt-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8 py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <img src={"src/assets/Logo.jpeg"} alt="Zaiqah Foods" className="h-16 w-auto mb-4 rounded-lg" />
+          <img src={logo} alt="Zaiqah Foods" className="h-16 w-auto mb-4 rounded-lg" />
           <p className="text-sm text-muted-foreground leading-relaxed">
             Authentic Pakistani cuisine, traditionally cooked & served with luxury in the heart of Islamabad.
           </p>

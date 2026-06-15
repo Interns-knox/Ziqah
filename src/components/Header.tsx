@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, ShoppingCart } from "lucide-react";
 import { IMG } from "@/lib/menu-data";
 import { useCart } from "@/lib/cart";
+import logo from "@/assets/Logo.jpeg";
 
 const links = [
   { to: "/", label: "Home" },
@@ -35,7 +36,7 @@ export function Header() {
     >
       <div className="mx-auto max-w-7xl px-5 lg:px-8 flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img src={"src/assets/Logo.jpeg"} alt="Zaiqah Foods" className="h-16 w-auto mb-4 rounded-lg" />
+          <img src={logo} alt="Zaiqah Foods" className="h-16 w-auto mb-4 rounded-lg" />
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
