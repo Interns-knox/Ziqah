@@ -3,6 +3,13 @@ import { Flame, Leaf, ShieldCheck, Users, Star, MapPin, ArrowRight } from "lucid
 import { SectionHeading } from "@/components/SectionHeading";
 import { FoodCard } from "@/components/FoodCard";
 import { RESTAURANT, menu } from "@/lib/menu-data";
+import logo from "@/assets/Logo.jpeg";
+import Chana from "@/assets/Chany.jpeg";
+import ChickenKarahi from "@/assets/Chicken Karahi.jpeg";
+import ChickenReshmiKabab from "@/assets/Chicken Reshmi kabab.jpeg";
+import ChickenBiryani from "@/assets/Chicken Biryani.jpeg";
+import RoghniNaan from "@/assets/Rogni Nan.jpeg";
+import Deal2 from "@/assets/Deal2.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -11,8 +18,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Premium Pakistani biryani, karahi, BBQ & tandoor in G-13/2 Islamabad. Order online, reserve a table, or visit us today." },
       { property: "og:title", content: "Zaiqah Foods — Authentic Pakistani Restaurant" },
       { property: "og:description", content: "Premium Pakistani cuisine in G-13/2 Islamabad." },
-      { property: "og:image", content: "src/assets/Logo.jpeg" },
-      { name: "twitter:image", content: "src/assets/Logo.jpeg" },
+      { property: "og:image", content: logo },
+      { name: "twitter:image", content: logo },
     ],
   }),
   component: Index,
@@ -20,12 +27,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const categories = [
-    { name: "Desi Salan", img: "src/assets/Chany.jpeg", to: "/menu" as const },
-    { name: "Chicken Karahi", img: "src/assets/Chicken Karahi.jpeg", to: "/menu" as const },
-    { name: "BBQ", img: "src/assets/Chicken Reshmi kabab.jpeg", to: "/menu" as const },
-    { name: "Biryani", img: "src/assets/Chicken Biryani.jpeg", to: "/menu" as const },
-    { name: "Tandoor", img: "src/assets/Rogni Nan.jpeg", to: "/menu" as const },
-    { name: "Family Deals", img: "src/assets/Deal.jpeg", to: "/deals" as const },
+    { name: "Desi Salan", img: Chana, to: "/menu" as const },
+    { name: "Chicken Karahi", img: ChickenKarahi, to: "/menu" as const },
+    { name: "BBQ", img: ChickenReshmiKabab, to: "/menu" as const },
+    { name: "Biryani", img: ChickenBiryani, to: "/menu" as const },
+    { name: "Tandoor", img: RoghniNaan, to: "/menu" as const },
+    { name: "Family Deals", img: Deal2, to: "/deals" as const },
   ];
 
   const bestSellers = [
@@ -47,7 +54,7 @@ function Index() {
       {/* HERO */}
       <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="src/assets/Chicken Biryani.jpeg" alt="Plated chicken biryani with fragrant rice and spiced meat centered on a serving dish, set on a wooden table in a warmly lit restaurant environment; conveys a comforting, inviting mood" className="h-full w-full object-cover" />
+          <img src={ChickenBiryani} alt="Plated chicken biryani with fragrant rice and spiced meat centered on a serving dish, set on a wooden table in a warmly lit restaurant environment; conveys a comforting, inviting mood" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/70 to-background" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,oklch(0.16_0_0/0.6)_100%)]" />
         </div>

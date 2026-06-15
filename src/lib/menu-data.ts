@@ -1,4 +1,4 @@
-import logo from "@/assets/img_50.jpeg.asset.json";
+import logo from "@/assets/Logo.jpeg";
 
 import Chana from "@/assets/Chany.jpeg";
 import MurghChana from "@/assets/Murgh chany.jpeg";
@@ -58,7 +58,7 @@ import Shami from "@/assets/Shami kabab 50.jpeg";
 import Deal1 from "@/assets/Deal.jpeg";
 import Deal2 from "@/assets/Deal2.jpeg";
 export const IMG = {
-  logo: logo.url,
+  logo: logo,
   };
 
 export type MenuItem = {
