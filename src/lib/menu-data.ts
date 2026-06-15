@@ -205,14 +205,12 @@ export const RESTAURANT = {
   tagline: "Authentic Pakistani Taste Since Day One",
   address: "Shop #10, Rehman Plaza, Mughal Market, Street 53, G-13/2 Islamabad",
   landmark: "Opposite Asian Mall",
-  phone: "+92 309 5000363",
+  phone: "+92 339 5000363",
   whatsapp: "923395000363",
   whatsappDisplay: "0339-5000363",
   email: "zaiqahfoodss@gmail.com",
   hours: [
-    { day: "Mon – Thu", time: "11:00 AM – 12:00 AM" },
-    { day: "Fri", time: "02:00 PM – 01:00 AM" },
-    { day: "Sat – Sun", time: "11:00 AM – 01:00 AM" },
+    { day: "All week", time: "04:00 AM – 11:00 PM" },
   ],
   mapEmbed:
     "https://www.google.com/maps?q=G-13/2+Islamabad+Rehman+Plaza+Mughal+Market&output=embed",
