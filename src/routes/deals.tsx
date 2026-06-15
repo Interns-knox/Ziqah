@@ -2,6 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/SectionHeading";
 import { IMG } from "@/lib/menu-data";
 import { Check } from "lucide-react";
+import Deal1 from "@/assets/Deal.jpeg";
+import Deal2 from "@/assets/Deal2.jpeg";
 
 export const Route = createFileRoute("/deals")({
   head: () => ({
@@ -21,7 +23,7 @@ const deals = [
     price: "Rs. 1,050",
     original: "Rs. 1,350",
     badge: "Save Rs. 300",
-    image: "src\assets\Deal.jpeg",
+    image: Deal1,
     items: [
       "Full Biryani × 1",
       "Chicken Kabab × 2",
@@ -35,7 +37,7 @@ const deals = [
     price: "Rs. 2,050",
     original: "Rs. 2,500",
     badge: "Save Rs. 450",
-    image: "src\assets\Deal2.jpeg",
+    image: Deal2,
     items: [
       "Full Biryani × 2",
       "Chicken Kabab × 4",
