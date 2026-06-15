@@ -9,7 +9,7 @@ import MixSabzi from "@/assets/Mix Sabazi.jpeg";
 import DaalChana from "@/assets/Daal chana.jpeg";
 import DaalMash from "@/assets/Daal Mash.jpeg";
 import ChickenQorma from "@/assets/Chicken Qorma.jpeg";
-import DaalLobia from "@/assets/Daal Lobia.jpeg";
+import DaalLobia from "@/assets/Daal lobia.jpeg";
 import MixDaal from "@/assets/Mix Daal.jpeg";
 import CurryPakora from "@/assets/curry.jpg";
 import TawaKaleeji from "@/assets/Tawa kalejii.jpeg";
