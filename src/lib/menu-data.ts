@@ -37,7 +37,7 @@ import WhiteChickenKarahi from "@/assets/White Chicken Karahi.jpeg";
 import ChickenMakhni from "@/assets/Chicken Makhni.jpeg";
 
 import ChickenBiryani from "@/assets/Chicken Biryani.jpeg";
-import Pulao from "@assets/Pulao.jpeg";
+import Pulao from "@/assets/Pulao.jpeg";
 
 import ChickenReshmiKabab from "@/assets/Chicken Reshmi kabab.jpeg";
 import ChickenTurkishKabab from "@/assets/Chicken Turkish Kabab.jpeg";
