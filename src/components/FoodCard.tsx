@@ -10,7 +10,16 @@ function variantsOf(item: MenuItem): Variant[] {
   const v: Variant[] = [];
   if (item.half) v.push({ key: "Half", label: "Half", price: item.half });
   if (item.full) v.push({ key: "Full", label: "Full", price: item.full });
-  if (item.single) v.push({ key: "Single Piece", label: "1 Pc", price: item.single });
+  if (item.single)
+  v.push({
+    key: "Single Piece",
+    label:
+      item.name === "Chicken Boti" ||
+      item.name === "Chicken Malai Boti"
+        ? "1 Seekh"
+        : "1 Pc",
+    price: item.single,
+  });
   if (item.halfDozen) v.push({ key: "Half Dozen", label: "½ Doz", price: item.halfDozen });
   if (item.fullDozen) v.push({ key: "Full Dozen", label: "1 Doz", price: item.fullDozen });
   if (v.length === 0 && item.price) v.push({ key: "Regular", label: "Regular", price: item.price });
