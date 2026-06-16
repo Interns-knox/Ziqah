@@ -37,6 +37,7 @@ import WhiteChickenKarahi from "@/assets/White Chicken Karahi.jpeg";
 import ChickenMakhni from "@/assets/Chicken Makhni.jpeg";
 
 import ChickenBiryani from "@/assets/Chicken Biryani.jpeg";
+import Pulao from "@assets/Pulao.jpeg";
 
 import ChickenReshmiKabab from "@/assets/Chicken Reshmi kabab.jpeg";
 import ChickenTurkishKabab from "@/assets/Chicken Turkish Kabab.jpeg";
@@ -141,12 +142,14 @@ export const menu: MenuCategory[] = [
   },
   {
     id: "biryani",
-    name: "Biryani",
+    name: "Biryani and Pulao",
     items: [
       { name: "Chicken Single Biryani", price: "Rs. 170", desc: "Signature chicken biryani, single plate.", image: ChickenBiryani },
       { name: "Chicken Full Biryani", price: "Rs. 350", desc: "Full chicken biryani platter.", image: ChickenBiryani },
       { name: "Single Biryani", price: "Rs. 150", desc: "Classic house biryani, single plate.", image: ChickenBiryani },
       { name: "Full Biryani", price: "Rs. 300", desc: "Family-size house biryani.", image: ChickenBiryani },
+      { name: "Single Pulao", price: "Rs. 150", desc: "Classic house pulao, single plate.", image: Pulao },
+      { name: "Full Pulao", price: "Rs. 300", desc: "Full plate pulao.", image: Pulao },
     ],
   },
   {
@@ -186,8 +189,8 @@ export const menu: MenuCategory[] = [
     id: "deals",
     name: "Deals",
     items: [
-      { name: "Zaiqah Deal 1", price: "Rs. 1,050", desc: "Full Biryani + 2 Kabab + 4 Boti + Salad + 1L Drink.", image: Deal1 },
-      { name: "Zaiqah Deal 2", price: "Rs. 2,050", desc: "2 Full Biryani + 4 Kabab + 8 Boti + 8 Malai Boti + Salad + 1.5L Drink.", image: Deal2 },
+      { name: "Zaiqah Deal 1", price: "Rs. 1,050", desc: "Full Biryani + 2 Kabab + 4 Chicken Boti + 4 Malai Boti  + Salad + 1L Drink.", image: Deal1 },
+      { name: "Zaiqah Deal 2", price: "Rs. 2,050", desc: "2 Full Biryani + 4 Kabab + 8 Chicken Boti + 8 Malai Boti + Salad + 1.5L Drink.", image: Deal2 },
     ],
   },
 ];
