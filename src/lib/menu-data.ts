@@ -216,5 +216,5 @@ export const RESTAURANT = {
     { day: "All week", time: "04:00 AM – 11:00 PM" },
   ],
   mapEmbed:
-  "https://www.google.com/maps?q=Zaiqah+Food+G13+Islamabad&output=embed",
+  "https://maps.google.com/maps?q=Zaiqah%20Foods%20G-13%20Islamabad&output=embed",
 };
