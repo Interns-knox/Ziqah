@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
+
 export type CartOption = "Half" | "Full" | "Single Piece" | "Half Dozen" | "Full Dozen" | "Regular";
 
 export type CartLine = {
